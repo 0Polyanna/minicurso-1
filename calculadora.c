@@ -20,6 +20,26 @@
 //fibonacci
 //média de n elementos
 int main(){
-
-
+  //soma
+  float x=0,y=0,r=0;
+  printf("numero: ");
+  scanf("%f",&x);
+  printf("numero: ");
+  scanf("%f",&y);
+  r=x+y;
+  printf("resultado: %f",r);
+  //eleva ao quadrado
+  printf("numero: ");
+  scanf("%f",&x);
+  r=x*x;
+  printf("resultado: %f",r);
+  //divisao
+  printf("numero: ");
+  scanf("%f",&x);
+  printf("numero: ");
+  scanf("%f",&y);
+  r=x/y;
+  printf("resultado: %f",r);
+  return 0;
 }
+  
